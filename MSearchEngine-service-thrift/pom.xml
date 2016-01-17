@@ -87,23 +87,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>tc-hessian</groupId>
-			<artifactId>hessian</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.aliyun.oss</groupId>
-			<artifactId>aliyun-sdk-oss</artifactId>
-			<version>2.0.2</version>
-			<exclusions>
-				<exclusion>
-					<groupId>org.apache.httpcomponents</groupId>
-					<artifactId>httpclient</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-
-		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 		</dependency>
@@ -133,6 +116,17 @@
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.1</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.apache.thrift</groupId>
+		  <artifactId>libthrift</artifactId>
+		  <version>0.9.1</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.midea.searchEngine</groupId>
+			<artifactId>MSearchEngine-common</artifactId>
+			<version>${MSearchEngine.version}</version>
 		</dependency>
 	</dependencies>
 
